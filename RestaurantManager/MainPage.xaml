@@ -21,7 +21,7 @@
 
         <TextBlock Text="Restaurant Manager" Grid.ColumnSpan="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
         <TextBlock Text="Internal Test Version" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
-        <TextBlock Text="**Go To Orders View**" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" />
-        <TextBlock Text="**Submit Order**" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <Button Name="btnOrders" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Content="**Go To Orders View**" Click="btnOrders_Click" />
+        <Button Name="btnSubmitOrder" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Content="**Submit Order**" Click="btnSubmitOrder_Click" />
     </Grid>
 </Page>
